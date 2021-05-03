@@ -13,7 +13,7 @@ public class CatalogPage {
 
     //Navigation menu parameter templeate
     private final String mainMenu = "//span[@class = 'catalog-navigation-classifier__item-title-wrapper' and text() = '%s']";
-    //Navigateion Side menu parameter template
+    //Navigation Side menu parameter template
     private final String asideMenu = "//div[@class='catalog-navigation-list__aside-title' and contains(text(), '%s')]";
     private final String dropMenu = "//span[@class='catalog-navigation-list__dropdown-title' and contains(text(), '%s')]";
 

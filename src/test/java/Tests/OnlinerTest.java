@@ -8,7 +8,6 @@ import onliner.bytesttask.locatorGLoader;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -16,7 +15,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import java.io.IOException;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 
 public class OnlinerTest {
@@ -81,7 +79,6 @@ public class OnlinerTest {
         List<WebElement> BrandandType = tv.driver.findElements(By.xpath("//span[@data-bind = 'html: product.extended_name || product.full_name']"));
         for (int i = 0; i < BrandandType.size(); i++) {
             WebElement webElement = BrandandType.get(i);
-            //Проверка что все в выдаче телевизоры и Samsung
             Assert.assertTrue(webElement.getText().contains(locatorsclass.getLocator("tv.brand.name.verify")));
         }
     }

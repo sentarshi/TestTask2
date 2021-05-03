@@ -9,7 +9,7 @@ public class ConfigLoader {
     private static Properties config;
     static {
         try {
-            //указание пути до файла с настройками
+            //Settings file path
             fileInputStream = new FileInputStream("src/test/resources/conf.prop");
             config = new Properties();
             config.load(fileInputStream);
