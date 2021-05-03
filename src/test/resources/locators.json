@@ -1,0 +1,14 @@
+{
+  "mainPage.menu.element": "Каталог",
+  "catalog.url": "https://catalog.onliner.by/",
+  "catalog.section.electronics": "Электроника",
+  "catalog.section.tv/video" : "Телевидение и",
+  "catalog.section.drop.tv" : "Телевизоры",
+  "tv.section.url": "https://catalog.onliner.by/tv",
+  "tv.brand.name": "samsung",
+  "tv.price.max" : "1000",
+  "tv.resolution":"1920x1080",
+  "tv.screensize.min": "400",
+  "tv.screensize.max": "500",
+  "tv.brand.name.verify": "Samsung"
+}
