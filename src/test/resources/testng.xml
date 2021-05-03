@@ -3,13 +3,8 @@
 <suite name="Test">
     <test verbose="2" preserve-order="true" name="C:/AutolabProject/Task2"><classes>
         <class name="Tests.OnlinerTest"><methods>
-            <include name="openPage"/>
-            <include name="catalogNav"/>
-            <include name="TVpage"/>
-            <include name="ResultscheckBrand"/>
-            <include name="ResultscheckPrice"/>
-            <include name="ResultscheckScreenSize"/>
-            <include name="ResultscheckResPresense"/>
+            <include name="TestOnliner"/>
+            <include name="Resultscheck"/>
         </methods>
         </class>
     </classes>
