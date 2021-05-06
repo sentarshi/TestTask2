@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class locatorGLoader {
-    private final static String FILE_NAME = "src/test/resources/locators.json";
+    private final static String FILE_NAME = "src/test/resources/TestData.json";
     private final Gson GSON = new Gson();
     private HashMap<String, String> locators = new HashMap<>();
 
